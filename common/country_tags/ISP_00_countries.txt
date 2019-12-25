@@ -30,11 +30,11 @@ NET = "countries/Netherlands.txt"
 
 # Havspakt #
 
-USS = "countries/USSR.txt" 
+USS = "countries/USSR.txt"  #localisation done
 GOT = "countries/Gotland.txt"
 
 #SWE
-LEN = "countries/Leningrad.txt"
+LEN = "countries/Leningrad.txt" #localisation done
 
 # Middle East #
 
