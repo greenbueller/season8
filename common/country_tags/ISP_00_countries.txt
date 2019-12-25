@@ -2,8 +2,8 @@
 
 #CAN
 WCN = "countries/Western Canada.txt"
-LLA = "countries/Llama.txt"
-JES = "countries/T-Pose Jesus.txt"
+LLA = "countries/Llama.txt" #localisation done
+JES = "countries/T-Pose Jesus.txt" #localisation done
 #ARG
 CAL = "countries/California.txt"
 
@@ -30,7 +30,7 @@ NET = "countries/Netherlands.txt"
 
 # Havspakt #
 
-USS = "countries/USSR.txt"
+USS = "countries/USSR.txt" #localisation done
 GOT = "countries/Gotland.txt"
 
 #SWE
@@ -39,7 +39,7 @@ LEN = "countries/Leningrad.txt"
 # Middle East #
 
 IUC = "countries/IUC.txt"
-ISR = "countries/Israel.txt"
+ISR = "countries/Israel.txt" #localisation done
 
 # Africa #
 
@@ -56,4 +56,4 @@ SIB = "countries/Siberia.txt"
 JCK = "countries/Jackhouse.txt"
 YRK = "countries/Yarkland.txt"
 
-UNC = "countries/Unclaimed.txt"
+UNC = "countries/Unclaimed.txt" #localisation done
