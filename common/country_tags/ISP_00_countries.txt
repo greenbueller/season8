@@ -1,10 +1,10 @@
 # America #
 
 #CAN
-WCN = "countries/Western Canada.txt"
+WCN = "countries/Western Canada.txt" #localisation done
 LLA = "countries/Llama.txt" #localisation done
 JES = "countries/T-Pose Jesus.txt" #localisation done
-#ARG
+#ARG #Localisation Done
 CAL = "countries/California.txt"
 
 # USA #
@@ -24,7 +24,7 @@ PLB = "countries/Plubistan.txt" #Localisation done
 #ITA #Localisation Done
 ILL = "countries/Illyria.txt"
 #GER
-#BEL
+#BEL 
 NET = "countries/Netherlands.txt"
 #HUN
 
@@ -50,9 +50,9 @@ MAD = "countries/Madagascar.txt"
 
 #NEP
 #TIB
-#JAP
+#JAP #Localisation Done
 #CHI
-SIB = "countries/Siberia.txt"
+SIB = "countries/Siberia.txt" #Localisation Done
 JCK = "countries/Jackhouse.txt"
 YRK = "countries/Yarkland.txt"
 
