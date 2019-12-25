@@ -1,10 +1,11 @@
 # America #
 
 #CAN
-WCN = "countries/West Canada.txt"
+WCN = "countries/Western Canada.txt"
 LLA = "countries/Llama.txt"
 JES = "countries/T-Pose Jesus.txt"
 #ARG
+CAL = "countries/California.txt"
 
 # USA #
 
@@ -34,7 +35,6 @@ GOT = "countries/Gotland.txt"
 
 #SWE
 LEN = "countries/Leningrad.txt"
-CAL = "countries/California.txt"
 
 # Middle East #
 
@@ -54,5 +54,6 @@ MAD = "countries/Madagascar.txt"
 #CHI
 SIB = "countries/Siberia.txt"
 JCK = "countries/Jackhouse.txt"
+YRK = "countries/Yarkland.txt"
 
 UNC = "countries/Unclaimed.txt"
