@@ -11,7 +11,7 @@ CAL = "countries/California.txt"
 
 #USA
 
-CAR = "countries/Carolina.txt"
+CRL = "countries/Carolina.txt"
 LOU = "countries/Louisiana.txt"
 PEN = "countries/Pennsylvania.txt"
 CRB = "countries/Caribbean.txt"
@@ -24,7 +24,7 @@ PLB = "countries/Plubistan.txt" #Localisation done
 #ITA #Localisation Done
 ILL = "countries/Illyria.txt"
 #GER
-#BEL 
+#BEL
 NET = "countries/Netherlands.txt"
 #HUN
 
@@ -39,12 +39,12 @@ LEN = "countries/Leningrad.txt" #localisation done
 # Middle East #
 
 IUC = "countries/IUC.txt"
-ISR = "countries/Israel.txt" #localisation done
+#ISR = "countries/Israel.txt" #localisation done
 
 # Africa #
 
 RHO = "countries/Rhodesia.txt"
-MAD = "countries/Madagascar.txt"
+#MAD = "countries/Madagascar.txt"
 
 # Asia #
 
