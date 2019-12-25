@@ -33,7 +33,7 @@ NET = "countries/Netherlands.txt"
 USS = "countries/USSR.txt"  #localisation done
 GOT = "countries/Gotland.txt"
 
-#SWE
+#SWE #localisation done
 LEN = "countries/Leningrad.txt" #localisation done
 
 # Middle East #
