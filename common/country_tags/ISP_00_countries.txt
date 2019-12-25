@@ -20,8 +20,8 @@ TEX = "countries/Texas.txt"
 # Europe #
 
 #ENG
-PLB = "countries/Plubistan.txt"
-#ITA
+PLB = "countries/Plubistan.txt" #Localisation done
+#ITA #Localisation Done
 ILL = "countries/Illyria.txt"
 #GER
 #BEL
@@ -30,7 +30,7 @@ NET = "countries/Netherlands.txt"
 
 # Havspakt #
 
-USS = "countries/USSR.txt" #localisation done
+USS = "countries/USSR.txt" 
 GOT = "countries/Gotland.txt"
 
 #SWE
