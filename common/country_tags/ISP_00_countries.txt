@@ -1,20 +1,58 @@
-LLA = "countries/Llama.txt"
-CAR = "countries/Carolinas.txt"
-CRB = "countries/Caribbean.txt"
-PEN = "countries/Pennsylvania.txt"
-TEX = "countries/Texas.txt"
-FLR = "countries/Florida.txt"
-SCT = "countries/UK.txt"
-IUC = "countries/IUC.txt"
-JPN = "countries/Japan.txt"
-ECN = "countries/East Canada.txt"
+# America #
+
+#CAN
 WCN = "countries/West Canada.txt"
+LLA = "countries/Llama.txt"
+JES = "countries/T-Pose Jesus.txt"
+#ARG
+
+# USA #
+
+#USA
+
+CAR = "countries/Carolina.txt"
+LOU = "countries/Louisiana.txt"
+PEN = "countries/Pennsylvania.txt"
+CRB = "countries/Caribbean.txt"
+TEX = "countries/Texas.txt"
+
+# Europe #
+
+#ENG
+PLB = "countries/Plubistan.txt"
+#ITA
+ILL = "countries/Illyria.txt"
+#GER
+#BEL
+NET = "countries/Netherlands.txt"
+#HUN
+
+# Havspakt #
+
+USS = "countries/USSR.txt"
+GOT = "countries/Gotland.txt"
+
+#SWE
+LEN = "countries/Leningrad.txt"
+CAL = "countries/California.txt"
+
+# Middle East #
+
+IUC = "countries/IUC.txt"
 ISR = "countries/Israel.txt"
-SWD = "countries/Sweden.txt"
-GRM = "countries/Germany.txt"
-FIN = "countries/Russia.txt"
-SOA = "countries/Madagascar.txt"
-IRN = "countries/Iran.txt"
+
+# Africa #
+
+RHO = "countries/Rhodesia.txt"
+MAD = "countries/Madagascar.txt"
+
+# Asia #
+
+#NEP
+#TIB
+#JAP
+#CHI
+SIB = "countries/Siberia.txt"
+JCK = "countries/Jackhouse.txt"
+
 UNC = "countries/Unclaimed.txt"
-GTL = "countries/Gotland.txt"
-GRN = "countries/Greenland.txt"
