@@ -1,3 +1,10 @@
+#capital = 405
+
+#oob = ""
+
+
+set_convoys = 0
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"
@@ -9,4 +16,15 @@ set_popularities = {
 	fascism = 0
 	communism = 0
 	neutrality = 100
+}
+
+create_country_leader = {
+	
+	name = "Villagers"
+	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
 }
