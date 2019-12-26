@@ -1,17 +1,17 @@
 ﻿l_english:
 
-  LLA_neutrality:0 "theocratic state of the llama temple"
-  LLA_neutrality_DEF:0 "the theocratic state of the llama temple"
-  LLA_neutrality_ADJ:0 "llama"
-  LLA_democratic:0 "theocratic republic of the llama temple"
-  LLA_democratic_DEF:0 "the theocratic republic of the llama temple"
-  LLA_democratic_ADJ:0 "llama"
-  LLA_communism:0 "communist state of llama temple"
-  LLA_communism_DEF:0 "the communist state of llama temple"
-  LLA_communism_ADJ:0 "llama"
-  LLA_fascism:0 "theocratic empire of the llama temple"
-  LLA_fascism_DEF:0 "the theocratic empire of the llama temple"
-  LLA_fascism_ADJ:0 "llama"
+  LLA_neutrality:0 "Theocratic state of the Llama Temple"
+  LLA_neutrality_DEF:0 "the Theocratic state of the Llama Temple"
+  LLA_neutrality_ADJ:0 "Llama"
+  LLA_democratic:0 "Theocratic state of the Llama Temple"
+  LLA_democratic_DEF:0 "the Theocratic state of the Llama Temple"
+  LLA_democratic_ADJ:0 "Llama"
+  LLA_communism:0 "Communist State of Llama Temple"
+  LLA_communism_DEF:0 "the Communist State of Llama Temple"
+  LLA_communism_ADJ:0 "Llama"
+  LLA_fascism:0 "Theocratic state of the Llama Temple"
+  LLA_fascism_DEF:0 "the Theocratic state of the Llama Temple"
+  LLA_fascism_ADJ:0 "Llama"
 
   SIB_neutrality:0 "Siberian free state"
   SIB_neutrality_DEF:0 "The Siberian free state"
@@ -25,20 +25,20 @@
   SIB_fascism:0 "Greater Siberian Empire"
   SIB_fascism_DEF:0 "The Greater Siberian Empire"
   SIB_fascism_ADJ:0 "Siberian"
-  
-  ARG_neutrality:0 "reyes argentina"
-  ARG_neutrality_DEF:0 "reyes argentina"
+
+  ARG_neutrality:0 "Reyes Argentina"
+  ARG_neutrality_DEF:0 "Reyes Argentina"
   ARG_neutrality_ADJ:0 "Argentinian"
   ARG_democratic:0 "Peronist Argentina"
   ARG_democratic_DEF:0 "Peronist Argentina"
   ARG_democratic_ADJ:0 "Argentinian"
-  ARG_communism:0 "pueblos argentina"
-  ARG_communism_DEF:0 "pueblos argentina"
+  ARG_communism:0 "Pueblos Argentina"
+  ARG_communism_DEF:0 "Pueblos Argentina"
   ARG_communism_ADJ:0 "Argentinian"
   ARG_fascism:0 "Estado argentino"
   ARG_fascism_DEF:0 "Estado argentino"
   ARG_fascism_ADJ:0 "Argentinian"
-  
+
   USA_neutrality:0 "Confederation of States in America"
   USA_neutrality_DEF:0 "The Confederation of States in America"
   USA_neutrality_ADJ:0 "American"
@@ -51,7 +51,7 @@
   USA_fascism:0 "Great American Empire"
   USA_fascism_DEF:0 "The Great American Empire"
   USA_fascism_ADJ:0 "American"
-  
+
   CAN_neutrality:0 "United Crown of Canada"
   CAN_neutrality_DEF:0 "the United Crown of Canada"
   CAN_neutrality_ADJ:0 "Canadian"
@@ -64,19 +64,19 @@
   CAN_fascism:0 "Canadian Reactionary"
   CAN_fascism_DEF:0 "the Canadian Reactionary"
   CAN_fascism_ADJ:0 "Canadian"
-  
-  
-  ITA_neutrality:0 "Mafia empire"
-  ITA_neutrality_DEF:0 "the Mafia empire"
+
+
+  ITA_neutrality:0 "Mafia Empire"
+  ITA_neutrality_DEF:0 "the Mafia Empire"
   ITA_neutrality_ADJ:0 "Mafian"
   ITA_democratic:0 "Republic of Spaghetti"
   ITA_democratic_DEF:0 "The Republic of Spaghetti"
   ITA_democratic_ADJ:0 "Italian"
-  ITA_communism:0 "Papa johns free pizzas"
-  ITA_communism_DEF:0 "The Papa johns free pizzas"
+  ITA_communism:0 "Papa John's Free Pizzas"
+  ITA_communism_DEF:0 "The Papa john's Free Pizzas"
   ITA_communism_ADJ:0 "Papa Johns"
-  ITA_fascism:0 "Italy "
-  ITA_fascism_DEF:0 "Italy "
+  ITA_fascism:0 "Italy"
+  ITA_fascism_DEF:0 "Italy"
   ITA_fascism_ADJ:0 "Italian"
 
   PLB_neutrality:0 "Duchy of Plubbistan"
@@ -91,7 +91,7 @@
   PLB_fascism:0 "Great Duchy of Plubbistan"
   PLB_fascism_DEF:0 "the great Duchy of Plubbistan"
   PLB_fascism_ADJ:0 "Plubbistani"
-  
+
   USS_neutrality:0 "Kingdom of St. Petersburg and Murmansk"
   USS_neutrality_DEF:0 "The Kingdom of St. Petersburg and Murmansk"
   USS_neutrality_ADJ:0 "Russian"
@@ -104,7 +104,7 @@
   USS_fascism:0 "Russian Empire"
   USS_fascism_DEF:0 "The Russian Empire"
   USS_fascism_ADJ:0 "Russian"
-  
+
   JCK_neutrality:0 "Jackhouse"
   JCK_neutrality_DEF:0 "The Jackhouse"
   JCK_neutrality_ADJ:0 "Chad"
@@ -117,7 +117,7 @@
   JCK_fascism:0 "Jackmansion"
   JCK_fascism_DEF:0 "the Jackmansion"
   JCK_fascism_ADJ:0 "Chad"
-  
+
   PEN_neutrality:0 ""
   PEN_neutrality_DEF:0 ""
   PEN_neutrality_ADJ:0 ""
@@ -130,8 +130,8 @@
   PEN_fascism:0 ""
   PEN_fascism_DEF:0 ""
   PEN_fascism_ADJ:0 ""
-  
-  
+
+
 
   CRB_neutrality:0 ""
   CRB_neutrality_DEF:0 ""
@@ -158,7 +158,7 @@
   JES_fascism:0 "Empire of T Posing Boi"
   JES_fascism_DEF:0 "the Empire of T Posing Boi"
   JES_fascism_ADJ:0 "Boi"
-  
+
   TEX_neutrality:0 ""
   TEX_neutrality_DEF:0 ""
   TEX_neutrality_ADJ:0 ""
@@ -200,16 +200,16 @@
 
   IUC_neutrality:0 "IUC"
   IUC_neutrality_DEF:0 "The IUC"
-  IUC_neutrality_ADJ:0 "caucusian"
+  IUC_neutrality_ADJ:0 "Caucusian"
   IUC_democratic:0 "Republic of IUC"
   IUC_democratic_DEF:0 "the Republic of IUC"
-  IUC_democratic_ADJ:0 "caucusian"
-  IUC_communism:0 "Union of the IUC soviet states"
-  IUC_communism_DEF:0 "Union of the IUC soviet states"
-  IUC_communism_ADJ:0 "caucusian"
-  IUC_fascism:0 "greater caucuses"
-  IUC_fascism_DEF:0 "the greater caucuses"
-  IUC_fascism_ADJ:0 "caucusian"
+  IUC_democratic_ADJ:0 "Caucusian"
+  IUC_communism:0 "Union of the Ikean States"
+  IUC_communism_DEF:0 "the Union of the Ikean States"
+  IUC_communism_ADJ:0 "Caucusian"
+  IUC_fascism:0 "Greater Caucus Empire"
+  IUC_fascism_DEF:0 "the Greater Caucus Empire"
+  IUC_fascism_ADJ:0 "Caucausian"
 
   JAP_neutrality:0 "Japan"
   JAP_neutrality_DEF:0 "Japan"
