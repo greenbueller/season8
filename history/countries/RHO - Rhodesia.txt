@@ -1,5 +1,4 @@
-capital = 1
-
+capital = 545
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1932.11.8"
