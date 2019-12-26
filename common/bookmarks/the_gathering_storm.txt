@@ -17,6 +17,7 @@ bookmarks = {
 				#
 			}
 		}
+		
 		"USA"={
 			history = "US_GATHERING_STORM_DESC"
 			ideology = democratic
@@ -27,6 +28,7 @@ bookmarks = {
 				#
 			}
 		}
+
 		"CAN"={
 			history = "CANADA_GATHERING_STORM_DESC"
 			ideology = democratic
@@ -37,6 +39,7 @@ bookmarks = {
 				#
 			}
 		}
+
 		"IUC"={
 			history = "IUC_GATHERING_STORM_DESC"
 			ideology = democratic
