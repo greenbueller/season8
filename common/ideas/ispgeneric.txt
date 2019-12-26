@@ -1,0 +1,338 @@
+ideas = {
+
+##IGNORE
+		country = {
+		
+			BRUH_antiwest = { 
+			
+			allowed = {
+				always = no
+			}
+			
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			cancel = {has_government = democratic}
+			
+			removal_cost = -1
+			
+			modifier = {
+			
+			democratic_acceptance = -85
+			
+			
+			}
+			
+			picture = eng_tackle_capitalism
+		}	
+		
+		
+		
+		
+		BRUH_unite = { 
+			
+			allowed = {
+				always = no
+			}
+			
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			
+			removal_cost = -1
+			
+			modifier = {
+			
+			democratic_acceptance = -200
+			fascism_acceptance = 200
+			communism_acceptance = 200
+			
+			
+			}
+			
+			picture = eng_tackle_capitalism
+		}
+		
+		
+		
+		
+		
+		BRUH_worldconquest = { 
+			
+			allowed = {
+				always = no
+			}
+			
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			
+			removal_cost = -1
+			
+			modifier = {
+			
+			army_attack_factor = 0.5
+			army_defence_factor	= 0.5
+			army_org_factor = 0.05
+			conscription = 0.03
+			
+			}
+			
+			picture = generic_fascism_drift_bonus
+		}
+		
+		
+		}
+		
+		##IGNORE ^^^
+		
+		
+		##Generic Communist path
+			country = {
+		
+			generic_freepotatoes = { 
+			
+			allowed = {
+				always = no
+			}
+			
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			
+			removal_cost = -1
+			
+			modifier = {
+			
+			communism_acceptance = 100
+			communism_drift = 0.05
+			
+			}
+			
+			picture = generic_communism_drift_bonus
+		}
+		
+		}
+		##Generic Fascist Path
+		
+			country = {
+		
+			generic_kodi = { 
+			
+			allowed = {
+				always = no
+			}
+			
+
+			allowed_civil_war = {
+				always = yes
+			}
+		
+			
+			removal_cost = -1
+			
+			modifier = {
+			
+			fascism_drift = 0.05
+			war_support_factor = 0.05
+			
+			}
+			
+			picture = generic_manpower_bonus
+		}
+		
+		}
+		
+		##Generic Non-Aligned Path
+		
+			country = {
+		
+			generic_default = { 
+			
+			allowed = {
+				always = no
+			}
+			
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			
+			removal_cost = -1
+			
+			modifier = {
+			
+			neutrality_drift = 0.05
+			stability_factor = 0.1
+			
+			}
+			
+			picture = generic_wall_line
+		}
+		}
+		
+		
+		##Generic democratic Path
+		
+			country = {
+		
+			generic_decentralization = { 
+			
+			allowed = {
+				always = no
+			}
+			
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			
+			removal_cost = -1
+			
+			modifier = {
+			
+			democratic_drift = 0.05
+			political_power_factor = -0.1
+			local_building_slots_factor = 0.25
+			
+			}
+			
+			picture = generic_democratic_drift_bonus
+		}
+		}
+		
+		
+		##Generic Common FOE
+		
+			country = {
+		
+			generic_freeworld = { 
+			
+			allowed = {
+				always = no
+			}
+			
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			
+			removal_cost = -1
+			
+			modifier = {
+			
+			democratic_acceptance = 80
+			neutrality_acceptance = 80
+			
+			army_core_defence_factor = 0.05
+			
+			}
+			
+			picture = generic_volunteer_expedition_bonus
+		}
+		}
+		
+		
+		##Generic Factional Market
+		
+			country = {
+		
+			generic_nonormies = { 
+			
+			allowed = {
+				always = no
+			}
+			
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			
+			removal_cost = -1
+			
+			modifier = {
+			
+			faction_trade_opinion_factor = 0.75
+			political_power_factor = 0.05
+			
+			}
+			
+			picture = generic_goods_red_bonus
+		}
+		}
+		
+		
+		##Generic Absolute Authority
+		
+			country = {
+		
+			generic_absolute_authority = { 
+			
+			allowed = {
+				always = no
+			}
+			
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			
+			removal_cost = -1
+			
+			modifier = {
+			
+			political_power_factor = 0.25
+			surrender_limit = 0.25
+			
+			}
+			
+			picture = generic_intel_bonus
+		}
+		}
+		
+		
+		##Generic Extensive Conscription
+		
+			country = {
+		
+			generic_every_member_must_fight = { 
+			
+			allowed = {
+				always = no
+			}
+			
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			
+			removal_cost = -1
+			
+			modifier = {
+			
+			training_time_factor = 0.05
+			
+			conscription = 0.015
+			
+			}
+			
+			picture = all_adults_serve
+		}
+		}
+
+
+}
