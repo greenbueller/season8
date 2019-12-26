@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = UNC
+		#owner = USA
 		victory_points = {
 			3957 40 
 		}
@@ -28,11 +28,20 @@ state={
 
 			}
 		}
-		add_core_of = UNC
+		add_core_of = USA
 
-	}
+##State edits start
 
-	provinces={
+##State edit for USA after 1936.1.1
+1936.1.1 = {
+	add_core_of = USA
+	owner = USA
+	controller = USA
+}
+
+##State edits end
+}
+provinces={
 		3957 6823 6892 6929 6984 9758 9786 11892 
 	}
 }

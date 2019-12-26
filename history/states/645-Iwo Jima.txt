@@ -6,8 +6,8 @@ state=
 	state_category = small_island
 	history=
 	{
-		owner = UNC
-		add_core_of = UNC
+		#owner = JAP
+		add_core_of = JAP
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -20,8 +20,18 @@ state=
 			13025 5
 		 }
 
-	}
-	provinces={
+##State edits start
+
+##State edit for JAP after 1936.1.1
+1936.1.1 = {
+	add_core_of = JAP
+	owner = JAP
+	controller = JAP
+}
+
+##State edits end
+}
+provinces={
 		13025
 	}
 }

@@ -9,15 +9,25 @@ state={
 		victory_points = {
 			406 1
 		}
-		owner = UNC
+		#owner = POL
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = UNC
-		add_core_of = UNC
-	}
+		add_core_of = POL
+		add_core_of = BLR
 
-	provinces={
+##State edits start
+
+##State edit for USS after 1936.1.1
+1936.1.1 = {
+	add_core_of = USS
+	owner = USS
+	controller = USS
+}
+
+##State edits end
+}
+provinces={
 		233 277 358 406 6340 9341 11391 
 	}
 }

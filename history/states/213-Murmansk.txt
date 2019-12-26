@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = UNC
+		#owner = USS
 		victory_points = {
 			3134 5 
 		}
@@ -22,10 +22,20 @@ state={
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = UNC
-	}
+		add_core_of = USS
 
-	provinces={
+##State edits start
+
+##State edit for USS after 1936.1.1
+1936.1.1 = {
+	add_core_of = USS
+	owner = USS
+	controller = USS
+}
+
+##State edits end
+}
+provinces={
 		15 74 98 116 142 178 3012 3121 3134 3170 6117 6140 6157 6181 6194 9039 9059 9115 9123 9162 9165 9179 9201 9203 9215 9217 11031 11088 11117 11128 11140 11183 11196 
 	}
 }

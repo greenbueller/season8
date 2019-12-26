@@ -7,7 +7,7 @@ state=
 	state_category = town
 	history=
 	{
-		owner = UNC
+		#owner = PHI
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
@@ -23,10 +23,20 @@ state=
 		victory_points = {
 			1221 1 
 		}
-		add_core_of = UNC
-	}
+		add_core_of = PHI
 
-	provinces={
+##State edits start
+
+##State edit for JAP after 1936.1.1
+1936.1.1 = {
+	add_core_of = JAP
+	owner = JAP
+	controller = JAP
+}
+
+##State edits end
+}
+provinces={
 		1221 1288 7275 7323 7351 10165 10236 10265 12236 
 	}
 }

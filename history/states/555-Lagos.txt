@@ -7,9 +7,9 @@ state={
 	state_category = tiny_island
 
 	history={
-		owner = UNC
-		#add_core_of = UNC
-		#add_claim_by = SOV # Removed because of too much aggression
+		#owner = JAP
+		#add_core_of = JAP
+		#add_claim_by = USS # Removed because of too much aggression
 		buildings = {
 			infrastructure = 3
 			1399 = {
@@ -19,9 +19,18 @@ state={
 
 		}
 
-	}
+##State edits start
 
-	provinces={
+##State edit for JAP after 1936.1.1
+1936.1.1 = {
+	add_core_of = JAP
+	owner = JAP
+	controller = JAP
+}
+
+##State edits end
+}
+provinces={
 		1399 1515 13037 
 	}
 }

@@ -7,12 +7,12 @@ state={
 	state_category = large_town
 
 	history={
-		owner = UNC
+		#owner = USS
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 		}
-		add_core_of = UNC
+		add_core_of = USS
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 2
@@ -21,9 +21,18 @@ state={
 		victory_points = {
 			1794 1
 		}
-	}
 
-	provinces={
+##State edits start
+
+##State edit for USS after 1936.1.1
+1936.1.1 = {
+	owner = USS
+	controller = USS
+}
+
+##State edits end
+}
+provinces={
 		1297 1779 1794 1797 4803 7680 10537 10546 11410 12515 12528 12613 
 	}
 }

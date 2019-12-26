@@ -8,9 +8,8 @@ state=
 	
 	history=
 	{
-		owner = UNC
-		add_core_of = UNC
-		add_core_of = UNC
+		owner = JAP
+		add_core_of = JAP
 		victory_points = {
 			10000 5 
 		}
@@ -23,10 +22,6 @@ state=
 				coastal_bunker = 1
 				bunker = 1
 			}
-		}
-
-		1938.10.25 = {
-			controller = UNC
 		}
 	}
 	provinces={

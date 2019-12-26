@@ -9,14 +9,23 @@ state={
 	}
 
 	history={
-		owner = UNC
+		#owner = USS
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = UNC
-	}
+		add_core_of = USS
 
-	provinces={
+##State edits start
+
+##State edit for USS after 1936.1.1
+1936.1.1 = {
+	owner = USS
+	controller = USS
+}
+
+##State edits end
+}
+provinces={
 		305 370 381 3027 3270 3294 3300 3394 4356 4400 6217 6224 6278 6297 6388 7359 7403 9293 11320 11365 12203 12244 
 	}
 }

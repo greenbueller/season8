@@ -7,7 +7,7 @@ state={
 	state_category = large_city
 
 	history={
-		owner = UNC
+		#owner = USA
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
@@ -19,7 +19,7 @@ state={
 
 			}
 		}
-		add_core_of = UNC
+		add_core_of = USA
 		victory_points = {
 			788 10
 		}
@@ -33,9 +33,18 @@ state={
 			}
 		}
 
-	}
+##State edits start
 
-	provinces={
+##State edit for USA after 1936.1.1
+1936.1.1 = {
+	add_core_of = USA
+	owner = USA
+	controller = USA
+}
+
+##State edits end
+}
+provinces={
 		788 801 865 873 951 1506 3823 3917 3925 3941 3975 4627 6846 6850 6958 6971 7466 7558 7588 7646 9779 9923 9931 10343 10412 10439 10441 11738 11841 11873 11888 
 	}
 }

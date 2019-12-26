@@ -9,8 +9,8 @@ state={
 	}
 
 	history={
-		owner = UNC
-		add_core_of = UNC
+		#owner = JAP
+		add_core_of = JAP
 		buildings = {
 			infrastructure = 7
 			air_base = 3
@@ -39,9 +39,18 @@ state={
 			}
 		}
 
-	}
+##State edits start
 
-	provinces={
+##State edit for JAP after 1936.1.1
+1936.1.1 = {
+	add_core_of = JAP
+	owner = JAP
+	controller = JAP
+}
+
+##State edits end
+}
+provinces={
 		1020 1025 1158 1183 4027 4102 4164 4198 7110 7178 9950 10011 10020 10092 11925 11949 12006 12032 
 	}
 }

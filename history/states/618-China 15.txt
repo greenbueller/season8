@@ -7,18 +7,26 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = UNC
-		add_core_of = UNC
-		add_core_of = UNC
-		add_core_of = UNC
+		#owner = SIK
+		add_core_of = SIK
+		add_core_of = CHI
+		add_core_of = PRC
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
 
-	}
+##State edits start
 
-	provinces={
+##State edit for USS after 1936.1.1
+1936.1.1 = {
+	owner = USS
+	controller = USS
+}
+
+##State edits end
+}
+provinces={
 		1708 1783 1844 4714 4788 4823 4849 7693 7737 7866 10674 10691 12590 12737 
 	}
 }

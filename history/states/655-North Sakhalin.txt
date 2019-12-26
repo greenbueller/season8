@@ -6,16 +6,26 @@ state={
 	
 	state_category = pastoral
 	history={
-		owner = UNC
-		add_core_of = UNC
+		#owner = USS
+		add_core_of = USS
 		add_claim_by = JAP
 		buildings = {
 			infrastructure = 3
 			air_base = 1
 		}
-	}
 
-	provinces={
+##State edits start
+
+##State edit for JAP after 1936.1.1
+1936.1.1 = {
+	add_core_of = JAP
+	owner = JAP
+	controller = JAP
+}
+
+##State edits end
+}
+provinces={
 		855 1742 1755 
 	}
 }

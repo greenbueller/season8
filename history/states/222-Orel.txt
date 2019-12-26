@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = UNC
+		#owner = USS
 		victory_points = {
 			9355 10
 		}
@@ -20,10 +20,20 @@ state={
 			infrastructure = 5
 			air_base = 4
 		}
-		add_core_of = UNC
-	}
+		add_core_of = USS
 
-	provinces={
+##State edits start
+
+##State edit for USS after 1936.1.1
+1936.1.1 = {
+	add_core_of = USS
+	owner = USS
+	controller = USS
+}
+
+##State edits end
+}
+provinces={
 		302 328 384 6355 9328 9355 9384 9411 11214 11283 11310 11337 11368 
 	}
 }

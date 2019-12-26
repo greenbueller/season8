@@ -7,8 +7,8 @@ state={
 	state_category = rural
 
 	history={
-		owner = UNC
-		add_core_of = UNC
+		#owner = JAP
+		add_core_of = JAP
 		buildings = {
 			infrastructure = 3
 		}
@@ -19,9 +19,18 @@ state={
 			12421 5 
 		}
 
-	}
+##State edits start
 
-	provinces={
+##State edit for JAP after 1936.1.1
+1936.1.1 = {
+	add_core_of = JAP
+	owner = JAP
+	controller = JAP
+}
+
+##State edits end
+}
+provinces={
 		1512 1642 3962 4576 4646 7532 7595 10444 10512 12352 12421 12493 
 	}
 }

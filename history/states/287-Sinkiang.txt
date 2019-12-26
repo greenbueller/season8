@@ -3,18 +3,26 @@ state={
 	name="STATE_287"
 
 	history={
-		owner = UNC
-		add_core_of = UNC
-		add_core_of = UNC
-		add_core_of = UNC
+		#owner = SIK
+		add_core_of = SIK
+		add_core_of = CHI
+		add_core_of = PRC
 		buildings = {
 			infrastructure = 1
 
 		}
 
-	}
+##State edits start
 
-	provinces={
+##State edit for USS after 1936.1.1
+1936.1.1 = {
+	owner = USS
+	controller = USS
+}
+
+##State edits end
+}
+provinces={
 		4973 8042 8086 10885 10911 12864 
 	}
 	manpower=408000

@@ -9,8 +9,8 @@ state={
 	}
 
 	history={
-		owner = UNC
-		add_core_of = UNC
+		#owner = JAP
+		add_core_of = JAP
 		buildings = {
 			infrastructure = 8
 			arms_factory = 2
@@ -36,9 +36,18 @@ state={
 			}
 		}
 
-	}
+##State edits start
 
-	provinces={
+##State edit for JAP after 1936.1.1
+1936.1.1 = {
+	add_core_of = JAP
+	owner = JAP
+	controller = JAP
+}
+
+##State edits end
+}
+provinces={
 		1051 1067 1133 1136 4054 4142 7072 7113 9985 11960 12031 
 	}
 }

@@ -6,8 +6,8 @@ state=
 	state_category = large_city
 	history=
 	{
-		owner = UNC
-		add_core_of = UNC
+		#owner = JAP
+		add_core_of = JAP
 		buildings = {
 			infrastructure = 3
 			air_base = 3
@@ -20,8 +20,19 @@ state=
 		victory_points = {
 			7197 10
 		}
-	}
-	provinces={
+
+##State edits start
+
+##State edit for JAP after 1936.1.1
+1936.1.1 = {
+	add_core_of = JAP
+	owner = JAP
+	controller = JAP
+}
+
+##State edits end
+}
+provinces={
 		4094 4179 7046 7197 9965 11997 12028
 	}
 }

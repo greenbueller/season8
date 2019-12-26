@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = UNC
+		#owner = PHI
 		buildings = {
 			infrastructure = 3
 			4241 = {
@@ -17,10 +17,20 @@ state={
 		victory_points = {
 			4241 3 
 		}
-		add_core_of = UNC
-	}
+		add_core_of = PHI
 
-	provinces={
+##State edits start
+
+##State edit for JAP after 1936.1.1
+1936.1.1 = {
+	add_core_of = JAP
+	owner = JAP
+	controller = JAP
+}
+
+##State edits end
+}
+provinces={
 		1234 1293 1379 1407 1421 4241 4266 4399 4427 7284 7360 7389 7417 7445 10184 10214 10243 10300 10328 12116 12158 12160 12188 12217 12245 12273 
 	}
 }

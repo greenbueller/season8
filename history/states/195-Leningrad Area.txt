@@ -7,7 +7,7 @@ state={
 	state_category = metropolis
 
 	history={
-		owner = UNC
+		#owner = USS
 		victory_points = {
 			3151 30.0
 		}
@@ -22,15 +22,25 @@ state={
 				coastal_bunker = 5
 			}
 		}
-		add_core_of = UNC
+		add_core_of = USS
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 7
 			}
 		}
-	}
 
-	provinces={
+##State edits start
+
+##State edit for USS after 1936.1.1
+1936.1.1 = {
+	add_core_of = USS
+	owner = USS
+	controller = USS
+}
+
+##State edits end
+}
+provinces={
 		79 149 3151 6174 11068 
 	}
 }

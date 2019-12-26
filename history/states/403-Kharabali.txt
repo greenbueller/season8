@@ -7,17 +7,27 @@ state={
 	state_category = rural
 
 	history={
-		owner = UNC
+		#owner = USS
 		victory_points = {
 			4824 1
 		}
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = UNC
-	}
+		add_core_of = USS
 
-	provinces={
+##State edits start
+
+##State edit for USS after 1936.1.1
+1936.1.1 = {
+	add_core_of = USS
+	owner = USS
+	controller = USS
+}
+
+##State edits end
+}
+provinces={
 		1387 1880 3472 4209 4659 4754 4780 4824 6787 7681 7774 7833 7846 9512 10600 10659 10670 12390 12521 
 	}
 }

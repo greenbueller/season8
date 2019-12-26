@@ -12,12 +12,12 @@ state={
 	}
 
 	history={
-		owner = UNC
+		owner = USS
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = UNC
+		add_core_of = USS
 	}
 
 	provinces={

@@ -26,6 +26,7 @@ state= {
 			}
 		}
 		add_core_of = UNC
+		set_demilitarized_zone = yes
 	}
 	provinces=
 	{
