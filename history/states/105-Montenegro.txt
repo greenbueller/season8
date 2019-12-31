@@ -10,8 +10,8 @@ state={
 		victory_points = {
 			9809 3
 		}
-		owner = UNC
-		add_core_of = UNC
+		owner = ILL
+		add_core_of = ILL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -21,12 +21,11 @@ state={
 			}
 
 		}
-		add_core_of = UNC
 
 	}
 
 	provinces={
-		937 6913 9809 9821 11858 
+		937 6913 9809 9821 11858
 	}
 	manpower=895500
 	buildings_max_level_factor=1.000
