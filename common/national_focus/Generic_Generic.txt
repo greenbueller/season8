@@ -1,0 +1,860 @@
+focus_tree = {
+	id = Generic
+	country = {
+		factor = 500
+	}
+	#Focus for Local Entente
+	focus = {
+		id = Generic_localentente
+		icon = GFX_goal_generic_improve_relations
+		x = 5
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_ourways }
+		mutually_exclusive = { 
+			focus = Generic_localentente 
+		}
+		mutually_exclusive = { 
+			focus = Generic_switzerlandmode 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Building Investment
+	focus = {
+		id = Generic_buildinginvestment
+		icon = GFX_buildinginvestment
+		x = 21
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_developclaims }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state = { limit = { free_building_slots = { building = industrial_complex size > 0 include_locked = yes infrastructure > 2} } add_extra_state_shared_building_slots = 1 add_building_construction = { type = industrial_complex level = 2 instant_build = yes } set_state_flag = BUILTCIV }
+		}
+	}
+
+	#Focus for Decentralization
+	focus = {
+		id = Generic_decentralization
+		icon = GFX_goal_support_democracy
+		x = 12
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_strengthleadership }
+		mutually_exclusive = { 
+			focus = Generic_leaderpersonalitycult 
+		}
+		mutually_exclusive = { 
+			focus = Generic_tradition 
+		}
+		mutually_exclusive = { 
+			focus = Generic_freepotatoesforall 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = {generic_decentralization}
+		}
+	}
+
+	#Focus for Leader Personality Cult
+	focus = {
+		id = Generic_leaderpersonalitycult
+		icon = GFX_goal_generic_political_pressure
+		x = 4
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_strengthleadership }
+		mutually_exclusive = { 
+			focus = Generic_decentralization 
+		}
+		mutually_exclusive = { 
+			focus = Generic_tradition 
+		}
+		mutually_exclusive = { 
+			focus = Generic_freepotatoesforall 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = {generic_kodi}
+		}
+	}
+
+	#Focus for Develop Claims
+	focus = {
+		id = Generic_developclaims
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 20
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			#(triggers event to gain core on a random #claim, not implemented yet)
+		}
+	}
+
+	#Focus for Strength Leadership
+	focus = {
+		id = Generic_strengthleadership
+		icon = GFX_goal_tripartite_pact
+		x = 7
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power= 150
+		}
+	}
+
+	#Focus for Stabilish Stonks
+	focus = {
+		id = Generic_stabilishstonks
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 19
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_developclaims }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for National Currency
+	focus = {
+		id = Generic_nationalcurrency
+		icon = GFX_goal_generic_forceful_treaty
+		x = 21
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = Generic_stabilishstonks 
+		}
+		prerequisite = { 
+			focus = Generic_buildinginvestment 
+		}
+		mutually_exclusive = { focus = Generic_usegold }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Free Potatoes for All
+	focus = {
+		id = Generic_freepotatoesforall
+		icon = GFX_freepotatoesforall
+		x = 2
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_strengthleadership }
+		mutually_exclusive = { 
+			focus = Generic_tradition 
+		}
+		mutually_exclusive = { 
+			focus = Generic_decentralization 
+		}
+		mutually_exclusive = { 
+			focus = Generic_leaderpersonalitycult 
+		}
+		mutually_exclusive = { 
+			focus = Generic_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = {generic_freepotatoes}
+		}
+	}
+
+	#Focus for Rights of Man
+	focus = {
+		id = Generic_rightsofman
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 13
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_decentralization }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_popularity= { 
+ideology = democratic
+popularity = 0.1 
+}
+
+
+add_political_power= 150
+		}
+	}
+
+	#Focus for Tradition
+	focus = {
+		id = Generic_tradition
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		x = 10
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_strengthleadership }
+		mutually_exclusive = { 
+			focus = Generic_decentralization 
+		}
+		mutually_exclusive = { 
+			focus = Generic_leaderpersonalitycult 
+		}
+		mutually_exclusive = { 
+			focus = Generic_ 
+		}
+		mutually_exclusive = { 
+			focus = Generic_freepotatoesforall 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = {generic_tradition}
+		}
+	}
+
+	#Focus for War Games
+	focus = {
+		id = Generic_wargames
+		icon = GFX_goal_generic_small_arms
+		x = 26
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			air_experience= 10
+
+add_tech_bonus = { bonus = 1 uses = 2 category = land_doctrine }
+		}
+	}
+
+	#Focus for The Free World
+	focus = {
+		id = Generic_thefreeworld
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 11
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = Generic_tradition 
+			focus = Generic_decentralization 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = {liberty_ethos_focus}
+		}
+	}
+
+	#Focus for Strength Leader Authority
+	focus = {
+		id = Generic_strengthleaderauthority
+		icon = GFX_goal_support_fascism
+		x = 5
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_leaderpersonalitycult }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = {generic_absolute_authority}
+		}
+	}
+
+	#Focus for Nation in Arms
+	focus = {
+		id = Generic_nationinarms
+		icon = GFX_nationinarms
+		x = 3
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = Generic_freepotatoesforall 
+			focus = Generic_leaderpersonalitycult 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 1 
+uses = 1 
+category = land_doctrine
+}
+
+army_experience = 10
+		}
+	}
+
+	#Focus for Distribute the Wealth
+	focus = {
+		id = Generic_distributethewealth
+		icon = GFX_goal_generic_forceful_treaty
+		x = 1
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_freepotatoesforall }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Unite Against the Normies
+	focus = {
+		id = Generic_uniteagainstthenormies
+		icon = GFX_goal_tripartite_pact
+		x = 3
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_nationinarms }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = {generic_nonormies}
+		}
+	}
+
+	#Focus for Nationalism
+	focus = {
+		id = Generic_nationalism
+		icon = GFX_goal_generic_national_unity
+		x = 5
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_strengthleaderauthority }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= 0.1
+		}
+	}
+
+	#Focus for Labor Camps
+	focus = {
+		id = Generic_laborcamps
+		icon = GFX_goal_generic_soviet_construction
+		x = 1
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_distributethewealth }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= generic_labor_camp
+		}
+	}
+
+	#Focus for Every Member Must Fight
+	focus = {
+		id = Generic_everymembermustfight
+		icon = GFX_focus_generic_little_entente
+		x = 5
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_nationalism }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = {generic_every_member_must_fight}
+		}
+	}
+
+	#Focus for The Common FOE
+	focus = {
+		id = Generic_thecommonfoe
+		icon = GFX_goal_generic_secret_weapon
+		x = 11
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_thefreeworld }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = {generic_freeworld}
+		}
+	}
+
+	#Focus for Intelectual Paradise
+	focus = {
+		id = Generic_intelectualparadise
+		icon = GFX_goal_tfv_generic_tech_sharing
+		x = 13
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_rightsofman }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_research_slot= 1
+		}
+	}
+
+	#Focus for Indoctrination
+	focus = {
+		id = Generic_indoctrination
+		icon = GFX_focus_usa_honor_the_confederacy
+		x = 3
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_uniteagainstthenormies }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = {ideological_fanaticism_focus}
+		}
+	}
+
+	#Focus for Royal Family
+	focus = {
+		id = Generic_royalfamily
+		icon = GFX_focus_hun_elect_a_king
+		x = 9
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_tradition }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Establish Seat in the UN
+	focus = {
+		id = Generic_establishseatintheun
+		icon = GFX_goal_molotov_ribbentrop_pact
+		x = 7
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_newconstitution }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Crush down on Imperialism
+	focus = {
+		id = Generic_crushdownonimperialism
+		icon = GFX_focus_rom_handle_king
+		x = 1
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_laborcamps }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Spread the revolution
+	focus = {
+		id = Generic_spreadtherevolution
+		icon = GFX_focus_ger_great_red_menace
+		x = 1
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_crushdownonimperialism }
+		mutually_exclusive = { 
+			focus = Generic_vitalspace 
+		}
+		mutually_exclusive = { 
+			focus = Generic_ourways 
+		}
+		mutually_exclusive = { 
+			focus = Generic_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Provincial Reform
+	focus = {
+		id = Generic_provincialreform
+		icon = GFX_goal_generic_position_armies
+		x = 9
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_royalfamily }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= 0.05
+		}
+	}
+
+	#Focus for Our Ways
+	focus = {
+		id = Generic_ourways
+		icon = GFX_goal_generic_neutrality_focus
+		x = 3
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_indoctrination }
+		mutually_exclusive = { 
+			focus = Generic_vitalspace 
+		}
+		mutually_exclusive = { 
+			focus = Generic_spreadtherevolution 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Vital Space
+	focus = {
+		id = Generic_vitalspace
+		icon = GFX_goal_generic_territory_or_war
+		x = 5
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_everymembermustfight }
+		mutually_exclusive = { 
+			focus = Generic_ourways 
+		}
+		mutually_exclusive = { 
+			focus = Generic_spreadtherevolution 
+		}
+		mutually_exclusive = { 
+			focus = Generic_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Discord Server
+	focus = {
+		id = Generic_discordserver
+		icon = GFX_discordserver
+		x = 7
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_strengthleadership }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = generic_discord_server
+		}
+	}
+
+	#Focus for Membership in the USSR2
+	focus = {
+		id = Generic_membershipintheussr2
+		icon = GFX_goal_support_communism
+		x = 1
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_ourways }
+		mutually_exclusive = { 
+			focus = Generic_localentente 
+		}
+		mutually_exclusive = { 
+			focus = Generic_switzerlandmode 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Switzerland mode
+	focus = {
+		id = Generic_switzerlandmode
+		icon = GFX_goal_generic_alliance
+		x = 3
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_ourways }
+		mutually_exclusive = { 
+			focus = Generic_localentente 
+		}
+		mutually_exclusive = { 
+			focus = Generic_switzerlandmode 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Protect Democracy
+	focus = {
+		id = Generic_protectdemocracy
+		icon = GFX_focus_generic_the_giant_wakes
+		x = 13
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_intelectualparadise }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Expeditionary Forces
+	focus = {
+		id = Generic_expeditionaryforces
+		icon = GFX_goal_generic_more_territorial_claims
+		x = 13
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_protectdemocracy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for International Labor
+	focus = {
+		id = Generic_internationallabor
+		icon = GFX_goal_generic_construction2
+		x = 11
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_thecommonfoe }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Use Gold
+	focus = {
+		id = Generic_usegold
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 19
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = Generic_stabilishstonks 
+		}
+		prerequisite = { 
+			focus = Generic_buildinginvestment 
+		}
+		mutually_exclusive = { focus = Generic_nationalcurrency }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for New Constitution
+	focus = {
+		id = Generic_newconstitution
+		icon = GFX_focus_generic_treaty
+		x = 7
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_discordserver }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power= 150
+		}
+	}
+
+	#Focus for Eternal Cruzade
+	focus = {
+		id = Generic_eternalcruzade
+		icon = GFX_focus_mex_restore_the_army_of_christ
+		x = 9
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_thechurch }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Agressive Defence
+	focus = {
+		id = Generic_agressivedefence
+		icon = GFX_focus_eng_global_defense
+		x = 9
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_eternalcruzade }
+		mutually_exclusive = { 
+			focus = Generic_stopweaponsofmassdestruction 
+		}
+		mutually_exclusive = { 
+			focus = Generic_jointhecanadianfederation 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Stop Weapons of Mass Destruction
+	focus = {
+		id = Generic_stopweaponsofmassdestruction
+		icon = GFX_focus_wonderweapons
+		x = 13
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_expeditionaryforces }
+		mutually_exclusive = { 
+			focus = Generic_agressivedefence 
+		}
+		mutually_exclusive = { 
+			focus = Generic_jointhecanadianfederation 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Great Academy
+	focus = {
+		id = Generic_thegreatacademy
+		icon = GFX_goal_continuous_research
+		x = 11
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_internationallabor }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_research_slot= 1
+		}
+	}
+
+	#Focus for The Church
+	focus = {
+		id = Generic_thechurch
+		icon = GFX_focus_generic_strike_at_democracy1
+		x = 9
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_provincialreform }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Join the Canadian Federation
+	focus = {
+		id = Generic_jointhecanadianfederation
+		icon = GFX_goal_tripartite_pact
+		x = 11
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_thegreatacademy }
+		mutually_exclusive = { 
+			focus = Generic_stopweaponsofmassdestruction 
+		}
+		mutually_exclusive = { 
+			focus = Generic_agressivedefence 
+		}
+		mutually_exclusive = { 
+			focus = Generic_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Minecraft Wikia
+	focus = {
+		id = Generic_minecraftwikia
+		icon = GFX_goal_generic_scientific_exchange
+		x = 7
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_establishseatintheun }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_research_slot= 1
+		}
+	}
+
+	#Focus for More Crafting Tables
+	focus = {
+		id = Generic_morecraftingtables
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 23
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Generic_buildinginvestment }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state = { limit = { free_building_slots = { building = arms_factory size > 0 include_locked = yes infrastructure > 2} } add_extra_state_shared_building_slots = 1 add_building_construction = { type = arms_factory level = 1 instant_build = yes } set_state_flag = BUILT }
+		}
+	}
+
+#End of focuses 
+ }

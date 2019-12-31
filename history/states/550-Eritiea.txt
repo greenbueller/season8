@@ -8,8 +8,8 @@ state=
 	
 	history=
 	{
-		owner = UNC
-		add_core_of = UNC
+		owner = CAN
+		add_core_of = CAN
 		victory_points = {
 			12766 1
 		}

@@ -11,7 +11,7 @@ state={
 	state_category = town
 	
 	history={
-		owner = UNC
+		owner = ILL
 		victory_points = {
 			9914 5
 		}
@@ -27,14 +27,8 @@ state={
 				naval_base = 4
 			}
 		}
-		add_core_of = UNC
-		add_claim_by = ITA
-
-		1939.4.12 = {
-			owner = UNC
-			controller = UNC
-			remove_claim_by = ITA
-		}
+		add_core_of = ILL
+		add_claim_by = ILL
 	}
 
 	provinces={
