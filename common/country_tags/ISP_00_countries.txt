@@ -1,0 +1,58 @@
+# America #
+
+#CAN
+WCN = "countries/Western Canada.txt" #localisation done
+LLA = "countries/Llama.txt" #localisation done
+JES = "countries/T-Pose Jesus.txt" #localisation done
+#ARG #Localisation Done
+CAL = "countries/California.txt"
+
+# USA #
+
+#USA
+
+CRL = "countries/Carolina.txt"
+LOU = "countries/Louisiana.txt"
+PEN = "countries/Pennsylvania.txt"
+CRB = "countries/Caribbean.txt"
+TEX = "countries/Texas.txt"
+
+# Europe #
+
+#ENG
+PLB = "countries/Plubistan.txt" #Localisation done
+#ITA #Localisation Done
+ILL = "countries/Illyria.txt"
+#GER
+#BEL
+NET = "countries/Netherlands.txt"
+#HUN
+
+# Havspakt #
+
+USS = "countries/USSR.txt"  #localisation done
+GOT = "countries/Gotland.txt"
+
+#SWE #localisation done
+
+# Middle East #
+
+IUC = "countries/IUC.txt"
+#ISR = "countries/Israel.txt" #localisation done
+
+# Africa #
+
+RHO = "countries/Rhodesia.txt"
+#MAD = "countries/Madagascar.txt"
+
+# Asia #
+
+#NEP
+#TIB
+#JAP #Localisation Done
+#CHI
+SIB = "countries/Siberia.txt" #Localisation Done
+JCK = "countries/Jackhouse.txt"
+YRK = "countries/Yarkland.txt"
+
+UNC = "countries/Unclaimed.txt" #localisation done

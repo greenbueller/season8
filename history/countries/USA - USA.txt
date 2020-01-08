@@ -1,0 +1,23 @@
+capital = 363
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 90
+	communism = 10
+}
+
+create_country_leader = {
+	name = "Kodiwulf"
+	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
+	picture = "Portrait_Japan_Hirohito.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		dictator
+	}
+}

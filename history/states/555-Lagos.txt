@@ -1,0 +1,36 @@
+
+state={
+	id=555
+	name="STATE_555" #Kuril Islands
+	manpower = 15000 
+	
+	state_category = tiny_island
+
+	history={
+		#owner = JAP
+		#add_core_of = JAP
+		#add_claim_by = USS # Removed because of too much aggression
+		buildings = {
+			infrastructure = 3
+			1399 = {
+				naval_base = 3
+
+			}
+
+		}
+
+##State edits start
+
+##State edit for JAP after 1936.1.1
+1936.1.1 = {
+	add_core_of = JAP
+	owner = JAP
+	controller = JAP
+}
+
+##State edits end
+}
+provinces={
+		1399 1515 13037 
+	}
+}
