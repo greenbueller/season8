@@ -1,8 +1,13 @@
 focus_tree = {
-	id = Generic
+	id = generic_focus
+
 	country = {
-		factor = 500
+		factor = 1
 	}
+
+	default = yes
+	reset_on_civilwar = no
+
 	#Focus for Local Entente
 	focus = {
 		id = Generic_localentente
@@ -12,11 +17,11 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = Generic_ourways }
-		mutually_exclusive = { 
-			focus = Generic_localentente 
+		mutually_exclusive = {
+			focus = Generic_localentente
 		}
-		mutually_exclusive = { 
-			focus = Generic_switzerlandmode 
+		mutually_exclusive = {
+			focus = Generic_switzerlandmode
 		}
 		ai_will_do = {
 			factor = 1
@@ -26,7 +31,7 @@ focus_tree = {
 	#Focus for Building Investment
 	focus = {
 		id = Generic_buildinginvestment
-		icon = GFX_buildinginvestment
+		icon = GFX_goal_generic_building_investments
 		x = 21
 		y = 1
 		cost = 10
@@ -36,7 +41,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			random_owned_controlled_state = { limit = { free_building_slots = { building = industrial_complex size > 0 include_locked = yes infrastructure > 2} } add_extra_state_shared_building_slots = 1 add_building_construction = { type = industrial_complex level = 2 instant_build = yes } set_state_flag = BUILTCIV }
+			random_owned_controlled_state = { limit = { free_building_slots = { building = industrial_complex size > 0 include_locked = yes } } add_extra_state_shared_building_slots = 1 add_building_construction = { type = industrial_complex level = 2 instant_build = yes } set_state_flag = BUILTCIV }
 		}
 	}
 
@@ -49,14 +54,14 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = Generic_strengthleadership }
-		mutually_exclusive = { 
-			focus = Generic_leaderpersonalitycult 
+		mutually_exclusive = {
+			focus = Generic_leaderpersonalitycult
 		}
-		mutually_exclusive = { 
-			focus = Generic_tradition 
+		mutually_exclusive = {
+			focus = Generic_tradition
 		}
-		mutually_exclusive = { 
-			focus = Generic_freepotatoesforall 
+		mutually_exclusive = {
+			focus = Generic_freepotatoesforall
 		}
 		ai_will_do = {
 			factor = 1
@@ -75,14 +80,14 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = Generic_strengthleadership }
-		mutually_exclusive = { 
-			focus = Generic_decentralization 
+		mutually_exclusive = {
+			focus = Generic_decentralization
 		}
-		mutually_exclusive = { 
-			focus = Generic_tradition 
+		mutually_exclusive = {
+			focus = Generic_tradition
 		}
-		mutually_exclusive = { 
-			focus = Generic_freepotatoesforall 
+		mutually_exclusive = {
+			focus = Generic_freepotatoesforall
 		}
 		ai_will_do = {
 			factor = 1
@@ -146,11 +151,11 @@ focus_tree = {
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { 
-			focus = Generic_stabilishstonks 
+		prerequisite = {
+			focus = Generic_stabilishstonks
 		}
-		prerequisite = { 
-			focus = Generic_buildinginvestment 
+		prerequisite = {
+			focus = Generic_buildinginvestment
 		}
 		mutually_exclusive = { focus = Generic_usegold }
 		ai_will_do = {
@@ -161,23 +166,20 @@ focus_tree = {
 	#Focus for Free Potatoes for All
 	focus = {
 		id = Generic_freepotatoesforall
-		icon = GFX_freepotatoesforall
+		icon = GFX_goal_generic_free_potatos
 		x = 2
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = Generic_strengthleadership }
-		mutually_exclusive = { 
-			focus = Generic_tradition 
+		mutually_exclusive = {
+			focus = Generic_tradition
 		}
-		mutually_exclusive = { 
-			focus = Generic_decentralization 
+		mutually_exclusive = {
+			focus = Generic_decentralization
 		}
-		mutually_exclusive = { 
-			focus = Generic_leaderpersonalitycult 
-		}
-		mutually_exclusive = { 
-			focus = Generic_ 
+		mutually_exclusive = {
+			focus = Generic_leaderpersonalitycult
 		}
 		ai_will_do = {
 			factor = 1
@@ -200,9 +202,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_popularity= { 
+			add_popularity= {
 ideology = democratic
-popularity = 0.1 
+popularity = 0.1
 }
 
 
@@ -219,17 +221,14 @@ add_political_power= 150
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = Generic_strengthleadership }
-		mutually_exclusive = { 
-			focus = Generic_decentralization 
+		mutually_exclusive = {
+			focus = Generic_decentralization
 		}
-		mutually_exclusive = { 
-			focus = Generic_leaderpersonalitycult 
+		mutually_exclusive = {
+			focus = Generic_leaderpersonalitycult
 		}
-		mutually_exclusive = { 
-			focus = Generic_ 
-		}
-		mutually_exclusive = { 
-			focus = Generic_freepotatoesforall 
+		mutually_exclusive = {
+			focus = Generic_freepotatoesforall
 		}
 		ai_will_do = {
 			factor = 1
@@ -265,9 +264,9 @@ add_tech_bonus = { bonus = 1 uses = 2 category = land_doctrine }
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { 
-			focus = Generic_tradition 
-			focus = Generic_decentralization 
+		prerequisite = {
+			focus = Generic_tradition
+			focus = Generic_decentralization
 		}
 		ai_will_do = {
 			factor = 1
@@ -297,22 +296,22 @@ add_tech_bonus = { bonus = 1 uses = 2 category = land_doctrine }
 	#Focus for Nation in Arms
 	focus = {
 		id = Generic_nationinarms
-		icon = GFX_nationinarms
+		icon = GFX_goal_generic_nation_in_arms
 		x = 3
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { 
-			focus = Generic_freepotatoesforall 
-			focus = Generic_leaderpersonalitycult 
+		prerequisite = {
+			focus = Generic_freepotatoesforall
+			focus = Generic_leaderpersonalitycult
 		}
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
 			add_tech_bonus= {
- bonus = 1 
-uses = 1 
+ bonus = 1
+uses = 1
 category = land_doctrine
 }
 
@@ -504,14 +503,11 @@ army_experience = 10
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = Generic_crushdownonimperialism }
-		mutually_exclusive = { 
-			focus = Generic_vitalspace 
+		mutually_exclusive = {
+			focus = Generic_vitalspace
 		}
-		mutually_exclusive = { 
-			focus = Generic_ourways 
-		}
-		mutually_exclusive = { 
-			focus = Generic_ 
+		mutually_exclusive = {
+			focus = Generic_ourways
 		}
 		ai_will_do = {
 			factor = 1
@@ -544,11 +540,11 @@ army_experience = 10
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = Generic_indoctrination }
-		mutually_exclusive = { 
-			focus = Generic_vitalspace 
+		mutually_exclusive = {
+			focus = Generic_vitalspace
 		}
-		mutually_exclusive = { 
-			focus = Generic_spreadtherevolution 
+		mutually_exclusive = {
+			focus = Generic_spreadtherevolution
 		}
 		ai_will_do = {
 			factor = 1
@@ -564,14 +560,11 @@ army_experience = 10
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = Generic_everymembermustfight }
-		mutually_exclusive = { 
-			focus = Generic_ourways 
+		mutually_exclusive = {
+			focus = Generic_ourways
 		}
-		mutually_exclusive = { 
-			focus = Generic_spreadtherevolution 
-		}
-		mutually_exclusive = { 
-			focus = Generic_ 
+		mutually_exclusive = {
+			focus = Generic_spreadtherevolution
 		}
 		ai_will_do = {
 			factor = 1
@@ -581,7 +574,7 @@ army_experience = 10
 	#Focus for Discord Server
 	focus = {
 		id = Generic_discordserver
-		icon = GFX_discordserver
+		icon = GFX_goal_generic_discord_server
 		x = 7
 		y = 2
 		cost = 10
@@ -604,11 +597,11 @@ army_experience = 10
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = Generic_ourways }
-		mutually_exclusive = { 
-			focus = Generic_localentente 
+		mutually_exclusive = {
+			focus = Generic_localentente
 		}
-		mutually_exclusive = { 
-			focus = Generic_switzerlandmode 
+		mutually_exclusive = {
+			focus = Generic_switzerlandmode
 		}
 		ai_will_do = {
 			factor = 1
@@ -624,11 +617,11 @@ army_experience = 10
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = Generic_ourways }
-		mutually_exclusive = { 
-			focus = Generic_localentente 
+		mutually_exclusive = {
+			focus = Generic_localentente
 		}
-		mutually_exclusive = { 
-			focus = Generic_switzerlandmode 
+		mutually_exclusive = {
+			focus = Generic_switzerlandmode
 		}
 		ai_will_do = {
 			factor = 1
@@ -685,11 +678,11 @@ army_experience = 10
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { 
-			focus = Generic_stabilishstonks 
+		prerequisite = {
+			focus = Generic_stabilishstonks
 		}
-		prerequisite = { 
-			focus = Generic_buildinginvestment 
+		prerequisite = {
+			focus = Generic_buildinginvestment
 		}
 		mutually_exclusive = { focus = Generic_nationalcurrency }
 		ai_will_do = {
@@ -737,11 +730,11 @@ army_experience = 10
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = Generic_eternalcruzade }
-		mutually_exclusive = { 
-			focus = Generic_stopweaponsofmassdestruction 
+		mutually_exclusive = {
+			focus = Generic_stopweaponsofmassdestruction
 		}
-		mutually_exclusive = { 
-			focus = Generic_jointhecanadianfederation 
+		mutually_exclusive = {
+			focus = Generic_jointhecanadianfederation
 		}
 		ai_will_do = {
 			factor = 1
@@ -757,11 +750,11 @@ army_experience = 10
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = Generic_expeditionaryforces }
-		mutually_exclusive = { 
-			focus = Generic_agressivedefence 
+		mutually_exclusive = {
+			focus = Generic_agressivedefence
 		}
-		mutually_exclusive = { 
-			focus = Generic_jointhecanadianfederation 
+		mutually_exclusive = {
+			focus = Generic_jointhecanadianfederation
 		}
 		ai_will_do = {
 			factor = 1
@@ -808,14 +801,11 @@ army_experience = 10
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = Generic_thegreatacademy }
-		mutually_exclusive = { 
-			focus = Generic_stopweaponsofmassdestruction 
+		mutually_exclusive = {
+			focus = Generic_stopweaponsofmassdestruction
 		}
-		mutually_exclusive = { 
-			focus = Generic_agressivedefence 
-		}
-		mutually_exclusive = { 
-			focus = Generic_ 
+		mutually_exclusive = {
+			focus = Generic_agressivedefence
 		}
 		ai_will_do = {
 			factor = 1
@@ -852,9 +842,9 @@ army_experience = 10
 			factor = 1
 		}
 		completion_reward = {
-			random_owned_controlled_state = { limit = { free_building_slots = { building = arms_factory size > 0 include_locked = yes infrastructure > 2} } add_extra_state_shared_building_slots = 1 add_building_construction = { type = arms_factory level = 1 instant_build = yes } set_state_flag = BUILT }
+			random_owned_controlled_state = { limit = { free_building_slots = { building = arms_factory size > 0 include_locked = yes } } add_extra_state_shared_building_slots = 1 add_building_construction = { type = arms_factory level = 1 instant_build = yes } set_state_flag = BUILT }
 		}
 	}
 
-#End of focuses 
+#End of focuses
  }
