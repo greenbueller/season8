@@ -13,7 +13,8 @@ state={
 	}
 
 	history={
-		owner = UNC
+		add_claim_by = CSA
+		owner = CAN
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1

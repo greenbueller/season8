@@ -3,8 +3,8 @@ state={
 	name="STATE_405"
 
 	history={
-		owner = UNC
-		add_core_of = UNC
+		owner = USS
+		add_core_of = USS
 		victory_points = {
 			1459 3 
 		}
@@ -14,7 +14,6 @@ state={
 			air_base = 1
 
 		}
-		add_core_of = UNC
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 4

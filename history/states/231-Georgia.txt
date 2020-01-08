@@ -3,7 +3,7 @@ state={
 	name="STATE_231"
 
 	history={
-		owner = UNC
+		owner = IUC
 		victory_points = {
 			1599 5 
 		}
@@ -21,17 +21,11 @@ state={
 			}
 
 		}
-		add_core_of = UNC
-		add_core_of = UNC
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 3
-
-			}
+		add_core_of = IUC
 
 		}
 
-	}
+	
 
 	provinces={
 		654 672 772 1530 1599 3653 3656 3658 4534 4605 6436 6669 6671 9626 9702 11599 11617 12309 

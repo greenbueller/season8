@@ -12,19 +12,15 @@ state={
 	}
 
 	history={
+		owner = YRK
+		add_core_of = YRK
 		buildings = {
-		
-		
 			infrastructure = 3
 			industrial_complex = 1
-			
 		}
+	}
 
-			owner = YRK 
-			controller = YRK 
-
-}
-provinces={
+	provinces={
 		1766 1970 2015 4828 5016 5087 7790 7949 8112 12119 
 	}
 }

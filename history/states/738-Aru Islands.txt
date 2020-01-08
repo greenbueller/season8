@@ -3,8 +3,8 @@ state={
 	name="STATE_738"
 
 	history={
-		owner = UNC
-		add_core_of = UNC
+		owner = NET
+		add_core_of = NET
 		buildings = {
 			infrastructure = 1
 

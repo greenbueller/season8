@@ -10,7 +10,8 @@ state={
 	}
 
 	history={
-		owner = UNC
+		add_claim_by = CSA
+		owner = CAN
 		victory_points = {
 			8087 1
 		}

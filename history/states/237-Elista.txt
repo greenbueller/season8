@@ -7,17 +7,27 @@ state={
 	state_category = rural
 
 	history={
-		owner = UNC
+		#owner = IUC
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = UNC
+		add_core_of = IUC
 		victory_points = {
 			11724 1
 		}
-	}
 
-	provinces={
+##State edits start
+
+##State edit for IUC after 1936.1.1
+1936.1.1 = {
+	add_core_of = IUC
+	owner = IUC
+	controller = IUC
+}
+
+##State edits end
+}
+provinces={
 		481 742 745 759 3413 3439 3475 3597 3746 3774 6463 6791 6794 9426 9594 9720 9739 11566 11724 
 	}
 }

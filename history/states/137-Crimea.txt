@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = UNC
+		owner = IUC
 		victory_points = {
 			3686 20
 		}
@@ -30,15 +30,24 @@ state={
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = UNC
+		add_core_of = IUC
 		1939.1.1 = {
 			buildings = {
 				dockyard = 2
 			}
 		}
-	}
 
-	provinces={
+##State edits start
+
+##State edit for IUC after 1936.1.1
+1936.1.1 = {
+	add_core_of = IUC
+	add_core_of = IUC
+}
+
+##State edits end
+}
+provinces={
 		705 3686 3722 6704 6724 9677 9680 9718 11649 
 	}
 }

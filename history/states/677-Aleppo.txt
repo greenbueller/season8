@@ -7,7 +7,7 @@ state={
 	state_category = town
 	
 	history={
-		owner = UNC
+		owner = IUC
 		victory_points = {
 			12473 3
 		}
@@ -17,7 +17,7 @@ state={
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = UNC
+		add_core_of = IUC
 
 	}
 

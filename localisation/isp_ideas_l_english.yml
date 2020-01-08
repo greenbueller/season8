@@ -9,6 +9,8 @@
  generic_decentralization_desc:0 "We believe every faction member has the right to to exercise power over their own items."
  generic_freeworld:0 "The Common FOE"
  generic_freeworld_desc:0 "Big State hella gay"
+ generic_discord_server:0"Discord Server"
+ generic_discord_server_desc:0"By having a discord server for our faction we can organize things better."
  generic_nonormies:0"Factional Market"
  generic_nonormies_desc:0"By assuring that most of our resources stay in our faction we can have more power over the world."
  generic_absolute_authority:0"Absolute Authority" 

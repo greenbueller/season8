@@ -10,14 +10,15 @@ state={
 		victory_points = {
 			8066 1
 		}
-		owner = UNC
+		add_claim_by = CSA
+		owner = CAN
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = UNC
+		#add_core_of = PAK
 	}
-
 	provinces={
 		1179 5043 5075 7917 8013 8066 12761 12774 
 	}
 }
+

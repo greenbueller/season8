@@ -19,9 +19,9 @@ state={
 		add_core_of = UNC
 
 		1938.3.12 = {
-			owner = UNC
-			controller = UNC
-			add_core_of = UNC
+			owner = GER
+			controller = GER
+			add_core_of = GER
 		}
 	}
 

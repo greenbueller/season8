@@ -7,23 +7,14 @@ state={
 	state_category = wasteland
 
 	history={
-		#owner = USS
+		
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = USS
+		add_core_of = XYZ
+	}
 
-##State edits start
-
-##State edit for USS after 1936.1.1
-1936.1.1 = {
-	owner = USS
-	controller = USS
-}
-
-##State edits end
-}
-provinces={
+	provinces={
 		4781 4800 10531 10713 12509 
 	}
 }

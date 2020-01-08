@@ -1,24 +1,23 @@
-capital = 38
+capital = 430
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = neutrality
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 100
+	democratic = 70
+	democratic = 20
 }
 
-
 create_country_leader = {
-	name = "cappuccino_boss"
+	name = "REPLACE ME WITH LEADER LATER DADDY"
 	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
-	picture = "Portrait_Sweden_cappuccino_boss.dds"
+	picture = "Portrait_Japan_Hirohito.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = conservatism
 	traits = {
-	
 		dictator
 	}
 }

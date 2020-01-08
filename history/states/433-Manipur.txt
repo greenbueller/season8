@@ -15,7 +15,8 @@ state={
 		victory_points = {
 			2054 1
 		}
-		owner = UNC
+		add_claim_by = CSA
+		owner = CAN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

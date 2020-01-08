@@ -1,6 +1,7 @@
 # America #
 
 #CAN
+CSA = "countries/CSA.txt" 
 WCN = "countries/Western Canada.txt" #localisation done
 LLA = "countries/Llama.txt" #localisation done
 JES = "countries/T-Pose Jesus.txt" #localisation done

@@ -12,8 +12,8 @@ state={
 	}
 
 	history={
-		owner = UNC
-		add_core_of = UNC
+		owner = NET
+		add_core_of = NET
 		victory_points = {
 			7381 5
 		}

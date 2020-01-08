@@ -20,8 +20,8 @@ state=
 		add_core_of = UNC
 
 		1938.9.30 = {
-			owner = UNC
-			controller = UNC
+			owner = GER
+			controller = GER
 		}
 	}
 	provinces= {
