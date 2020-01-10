@@ -13,8 +13,8 @@ state={
 		victory_points = {
 			11420 5
 		}
-		owner = UNC
-		add_core_of = UNC
+		owner = ENG
+		add_core_of = ENG
 		buildings = {
 			infrastructure = 8
 			industrial_complex = 1

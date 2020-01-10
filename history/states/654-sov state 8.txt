@@ -11,7 +11,8 @@ state={
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = XYZ
+		add_core_of = USS
+		owner = USS
 	}
 
 	provinces={
