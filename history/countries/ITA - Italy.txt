@@ -10,6 +10,12 @@ set_popularities = {
 	fascism = 100
 }
 
+add_ideas = {
+
+	ITA_all_portals_lead_to_rome
+
+}
+
 create_country_leader = {
 	name = "Chef Boyarolini"
 	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"

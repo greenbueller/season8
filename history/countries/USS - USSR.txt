@@ -10,6 +10,14 @@ set_popularities = {
 	communism = 100
 }
 
+#########################
+##########Faction########
+#########################
+create_faction = "Soviet Union 2"
+add_to_faction = SWE
+add_to_faction = YRK
+#add_to_faction = POL -added by focus
+
 create_country_leader = {
 	name = "Finian3"
 	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"

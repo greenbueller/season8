@@ -19,3 +19,5 @@
  generic_every_member_must_fight_desc:0 "Every member of the faction must fight in times of war."
  CAN_greentoppolicy:0 "Greentop Policy"
  CAN_greentoppolicy_desc:0 "Making all of our development out of dirt is very fast, but it comes with the cost of vunelabiliry and more time to fill our bunkers with dirt to compensate for it's fragility."
+ ITA_all_portals_lead_to_rome:0"All portals lead to Rome."
+ ITA_all_portals_lead_to_rome_desc:0"since the global nether portal system is centered around Rome we have easier acess to trade."

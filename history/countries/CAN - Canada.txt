@@ -16,6 +16,14 @@ add_ideas = {
 }
 
 
+#########################
+##########Faction########
+#########################
+create_faction = "Canadian Federation"
+add_to_faction = GRL
+#add_to_faction = CSA -added by focus
+
+
 create_country_leader = {
 	name = "Fynd"
 	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
