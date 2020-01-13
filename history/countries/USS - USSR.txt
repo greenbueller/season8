@@ -10,6 +10,16 @@ set_popularities = {
 	communism = 100
 }
 
+
+add_ideas = 
+{
+
+	USS_capital_of_the_revolution
+	
+	USS_union_of_member_states
+
+}
+
 #########################
 ##########Faction########
 #########################
