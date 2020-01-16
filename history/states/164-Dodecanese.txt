@@ -8,7 +8,7 @@ state=
 	
 	history=
 	{
-		owner = ITA
+		owner = IUC
 		victory_points = {
 			10007 1 
 		}

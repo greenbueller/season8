@@ -10,10 +10,28 @@ set_popularities = {
 	communism = 100
 }
 
+
+add_ideas = 
+{
+
+	USS_capital_of_the_revolution
+	
+	USS_union_of_member_states
+
+}
+
+#########################
+##########Faction########
+#########################
+create_faction = "Soviet Union 2"
+add_to_faction = SWE
+add_to_faction = YRK
+#add_to_faction = POL -added by focus
+
 create_country_leader = {
 	name = "Finian3"
 	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
-	picture = "Portrait_Japan_Hirohito.dds"
+	picture = "gfx//leaders//USS//finian.dds"
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {

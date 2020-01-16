@@ -9,3 +9,32 @@ set_politics = {
 set_popularities = {
 	democratic = 100
 }
+
+#########################
+##########Faction########
+#########################
+create_faction = "llama Sphere of Influence"
+add_to_faction = JES
+add_to_faction = CAL ##may be added by focus in the future
+
+create_country_leader = {
+	name = "MrKage"
+	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
+	picture = "gfx//leaders//LLA//mrkage.dds"
+	expire = "1965.1.1"
+	ideology = conservatism  
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "MrKage"
+	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
+	picture = "gfx//leaders//LLA//mrkage.dds"
+	expire = "1965.1.1"
+	ideology = absolutism  
+	traits = {
+		#
+	}
+}

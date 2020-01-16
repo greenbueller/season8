@@ -18,7 +18,8 @@ state={
 			air_base = 1
 
 		}
-		add_core_of = XYZ
+		add_core_of = USS
+		owner = USS
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 3

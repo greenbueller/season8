@@ -10,8 +10,8 @@ state= {
 
 	history= {
 		
-		#add_core_of = XYZ
-		#add_claim_by = IUC # Removed because of too much aggression
+		add_core_of = JAP
+		owner = JAP
 		buildings = {
 			infrastructure = 3
 			12446 = {

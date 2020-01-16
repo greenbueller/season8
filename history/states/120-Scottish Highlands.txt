@@ -12,8 +12,8 @@ state= {
 	}
 
 	history= {
-		add_core_of = UNC
-		owner = UNC
+		add_core_of = SCO
+		owner = UNK
 		victory_points = { 11064 1 }
 		buildings = {
 			infrastructure = 4
@@ -27,7 +27,7 @@ state= {
 				naval_base = 1	
 			}
 		}
-		add_core_of = UNC
+		add_core_of = UNK
 	}
 
 	provinces=

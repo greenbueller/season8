@@ -308,6 +308,34 @@ ideas = {
 			picture = idea_ast_classify_aliens
 		}
 		}
+		
+		
+		##Generic Resource Bonus
+			country = {
+		
+			generic_resource = { 
+			
+			allowed = {
+				always = no
+			}
+			
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			
+			removal_cost = -1
+			
+			modifier = {
+			
+			communism_acceptance = 100
+			communism_drift = 0.05
+			
+			}
+			
+			picture = generic_communism_drift_bonus
+		}
 
 
 }

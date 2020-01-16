@@ -1,0 +1,34 @@
+ideas = {
+
+		##All nether portals lead to Rome
+
+		
+			country = {
+		
+			ITA_all_portals_lead_to_rome = { 
+			
+			allowed = {
+				always = no
+			}
+			
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			
+			removal_cost = -1
+			
+			modifier = {
+			
+			faction_trade_opinion_factor = 0.25
+			political_power_factor = 0.25
+			
+			}
+			
+			picture = generic_build_infrastructure
+		}
+		}
+
+
+}

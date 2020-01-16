@@ -7,6 +7,7 @@ LLA = "countries/Llama.txt" #localisation done
 JES = "countries/T-Pose Jesus.txt" #localisation done
 #ARG #Localisation Done
 CAL = "countries/California.txt"
+GRL = "countries/Greenland.txt"
 
 # USA #
 
@@ -20,7 +21,7 @@ TEX = "countries/Texas.txt"
 
 # Europe #
 
-#ENG
+UNK = "countries/UK.txt"
 PLB = "countries/Plubistan.txt" #Localisation done
 #ITA #Localisation Done
 ILL = "countries/Illyria.txt"
