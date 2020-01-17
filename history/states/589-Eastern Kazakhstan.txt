@@ -3,14 +3,14 @@ state={
 	name="STATE_589"
 
 	history={
-		#owner = USS
-		add_core_of = KAZ
+		owner = YRK
+		add_core_of = YRK
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 
 		}
-		add_core_of = USS
+		#add_core_of = USS
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 1
@@ -21,16 +21,6 @@ state={
 		victory_points = {
 			1668 1
 		}
-
-##State edits start
-
-##State edit for USS after 1936.1.1
-1936.1.1 = {
-	owner = USS
-	controller = USS
-}
-
-##State edits end
 }
 provinces={
 		1239 1668 4651 4764 7332 7405 7711 7784 7795 7856 10290 10550 10619 10680 12529 12662 13148 13149 13197 

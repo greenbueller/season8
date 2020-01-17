@@ -11,8 +11,8 @@ state={
 		victory_points = {
 			2096 1
 		}
-		owner = UNC
-		add_core_of = UNC
+		owner = IUC
+		add_core_of = IUC
 		buildings = {
 			infrastructure = 3
 		}

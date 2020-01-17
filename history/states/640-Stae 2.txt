@@ -7,8 +7,8 @@ state={
 	state_category = town
 
 	history={
-		add_claim_by = CSA
-		owner = CAN
+		#add_claim_by = CSA
+		owner = UNC
 		buildings = {
 			infrastructure = 3
 			air_base = 1

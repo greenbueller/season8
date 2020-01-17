@@ -10,8 +10,8 @@ state={
 		victory_points = {
 			12763 3
 		}
-		add_claim_by = CSA
-		owner = CAN
+		#add_claim_by = CSA
+		owner = UNC
 		buildings = {
 			infrastructure = 3
 			air_base = 3

@@ -10,8 +10,8 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
-		add_claim_by = CSA
-		owner = CAN
+		#add_claim_by = CSA
+		owner = UNC
 	}
 
 	provinces={

@@ -7,12 +7,12 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = LLA
+		owner = UNC
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 		}
-		add_core_of = LLA
+		add_core_of = UNC
 	}
 
 	provinces={

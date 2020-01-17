@@ -9,12 +9,12 @@ state={
 		victory_points = {
 			1910 1
 		}
-		#owner = RAJ
+		#owner = UNC
 		buildings = {
 			infrastructure = 2
 		}
-		add_claim_by = CSA
-		owner = CAN
+		#add_claim_by = CSA
+		owner = UNC
 
 	}
 
