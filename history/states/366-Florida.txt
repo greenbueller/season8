@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = UNC
+		owner = DMF
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3
@@ -28,7 +28,7 @@ state={
 		
 		set_demilitarized_zone = yes
 		
-		add_core_of = UNC
+		add_core_of = DMF
 		victory_points = {
 			1843 5 
 		}

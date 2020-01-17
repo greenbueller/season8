@@ -58,3 +58,4 @@ JCK = "countries/Jackhouse.txt"
 YRK = "countries/Yarkland.txt"
 
 UNC = "countries/Unclaimed.txt" #localisation done
+DMF = "countries/Denmarkfied.txt" #localisation done

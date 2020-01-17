@@ -17,6 +17,12 @@ state={
 
 		}
 		add_core_of = LLA
+		
+		victory_points = {
+		
+		12919 15
+		}
+		
 	}
 
 	provinces={
