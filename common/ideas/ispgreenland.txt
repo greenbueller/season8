@@ -1,29 +1,44 @@
 ideas = {
-
-		country = {
-			GRL_rise_of_the_new_order = {
-
+		
+		
+		##Rise of the New Order
+			country = {
+		
+			GRL_rise_of_the_new_order = { 
+			
 			allowed = {
-				original_tag = GRL
+			
+			original_tag = GRL 
+			
 			}
+			
 
 			allowed_civil_war = {
-				always = no
+				always = yes
 			}
-
+			
+			
 			removal_cost = -1
-
+			
 			modifier = {
-				justify_war_goal_time = -0.25
-				army_core_defence_factor = 0.1
-				fascism_drift = 0.5
+			
+			justify_war_goal_time = -0.25
+			army_core_defence_factor = 0.1
+			fascism_drift = 0.5
+			
 			}
-
-			rule = {
-				can_create_factions = yes
+			
+			rule = { 
+			
+			can_create_factions = yes 
+			
 			}
-
-			picture = GRL_the_order_will_rise
+			
+			
+			picture = grl_the_order_wil_rise
 		}
-	}
+		
+		}
+
+
 }
