@@ -7,7 +7,9 @@ ideas = {
 			GRL_rise_of_the_new_order = { 
 			
 			allowed = {
-				always = no
+			
+			original_tag = GRL 
+			
 			}
 			
 
@@ -26,10 +28,14 @@ ideas = {
 			
 			}
 			
-			rule = { can_create_factions = yes }
+			rule = { 
+			
+			can_create_factions = yes 
+			
+			}
 			
 			
-			picture = GFX_idea_grl_the_order_wil_rise
+			picture = grl_the_order_wil_rise
 		}
 		
 		}

@@ -4,7 +4,7 @@ spriteTypes = {
 	#ISP Mod stuff
 	
 	spriteType = {
-		name = "GFX_idea_grl_the_order_wil_rise"
+		name = "GFX_ideas_grl_the_order_wil_rise"
 		texturefile = "gfx/interface/ideas/greenland_the_order.dds"
 	}
 	

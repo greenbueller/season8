@@ -22,7 +22,9 @@ ideas = {
 			modifier = {
 			
 			faction_trade_opinion_factor = 0.25
-			political_power_factor = 0.25
+			air_paradrop_agility_factor = 0.25
+			air_paradrop_defence_factor = 0.1
+			supply_consumption_factor = -0.1
 			
 			}
 			
