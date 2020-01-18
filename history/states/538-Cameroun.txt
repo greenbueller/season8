@@ -9,11 +9,11 @@ state={
 		rubber=5 # was: 5
 	}
 	history={
-		owner = UNC
+		owner = USA
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = UNC
+		add_core_of = USA
 	}
 
 	provinces={
