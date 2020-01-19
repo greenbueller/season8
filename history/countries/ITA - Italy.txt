@@ -12,7 +12,9 @@ set_popularities = {
 
 add_ideas = {
 
-	ITA_all_portals_lead_to_rome
+	ITA_all_portals_lead_to_rome	
+	
+	DIPLOMACY_albanian_treaty
 
 }
 

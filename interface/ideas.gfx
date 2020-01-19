@@ -4,8 +4,19 @@ spriteTypes = {
 	#ISP Mod stuff
 	
 	spriteType = {
-		name = "GFX_idea_grl_the_order_wil_rise"
-		texturefile = "gfx/interface/ideas/greenland_the_order.dds"
+		name = "GFX_idea_grl_the_order_wil_rise" 
+		texturefile = "gfx/interface/ideas/greenland_the_order.dds" #italy_all_portals_lead_to_rome
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_can_greentop_police" 
+		texturefile = "gfx/interface/ideas/canada_greentop_police.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ita_all_portals_lead_to_rome" 
+		texturefile = "gfx/interface/ideas/italy_all_portals_lead_to_rome.dds"
 	}
 	
 	####

@@ -21,12 +21,12 @@ ideas = {
 			
 			modifier = {
 			
-			faction_trade_opinion_factor = 0.25
+			trade_opinion_factor = 0.25
 			air_paradrop_agility_factor = 0.35
 			
 			}
 			
-			picture = generic_build_infrastructure
+			picture = ita_all_portals_lead_to_rome
 		}
 		}
 

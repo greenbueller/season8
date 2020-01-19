@@ -28,7 +28,7 @@ ideas = {
 			
 			}
 			
-			picture = generic_local_self_management
+			picture = can_greentop_police
 		}
 		}
 

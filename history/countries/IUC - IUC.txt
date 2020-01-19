@@ -10,6 +10,16 @@ set_popularities = {
 	democratic = 100
 }
 
+#Albanian Treaty Stuff
+diplomatic_relation = { 
+	country = ILL 
+	relation = non_aggression_pact 
+}
+
+#Alliances
+give_guarantee = CAN
+
+
 create_country_leader = {
 	name = "Sexy boy for ikea"
 	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"

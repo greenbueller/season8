@@ -9,3 +9,15 @@ set_politics = {
 set_popularities = {
 	neutrality = 100
 }
+
+
+create_country_leader = {
+	name = "Rommel"
+	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
+	picture = "gfx//leaders//JES//rommel.dds"
+	expire = "1965.1.1"
+	ideology = centrism 
+	traits = {
+		#
+	}
+}

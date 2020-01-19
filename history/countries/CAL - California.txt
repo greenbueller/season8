@@ -9,3 +9,25 @@ set_politics = {
 set_popularities = {
 	neutrality = 100
 }
+
+create_country_leader = {
+	name = "Sekiolite"
+	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
+	picture = "gfx//leaders//CAL/sekiolite.dds"
+	expire = "1965.1.1"
+	ideology = centrism  
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Sekiolite"
+	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
+	picture = "gfx//leaders//CAL/sekiolite.dds"
+	expire = "1965.1.1"
+	ideology = socialism  
+	traits = {
+		#
+	}
+}

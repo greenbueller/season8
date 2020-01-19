@@ -16,6 +16,10 @@ add_ideas = {
 }
 
 
+#Alliances  USA and llama are national spirit
+give_guarantee = IUC
+
+
 #########################
 ##########Faction########
 #########################

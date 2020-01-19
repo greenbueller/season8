@@ -1,5 +1,11 @@
 capital = 44
 
+add_ideas = {
+
+	DIPLOMACY_albanian_treaty 
+
+}
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1932.11.8"
@@ -8,4 +14,16 @@ set_politics = {
 }
 set_popularities = {
 	neutrality = 100
+}
+
+
+create_country_leader = {
+	name = "KUJA12"
+	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
+	picture = "gfx//leaders//ILL/kuja12.dds"
+	expire = "1965.1.1"
+	ideology = centrism  
+	traits = {
+		#
+	}
 }

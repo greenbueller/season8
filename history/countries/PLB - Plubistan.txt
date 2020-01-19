@@ -7,5 +7,18 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	neutrality = 51
+	fascism = 49
+}
+
+
+create_country_leader = {
+	name = "BigPlubby69"
+	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
+	picture = "gfx//leaders//PLB/plub.dds"
+	expire = "1965.1.1"
+	ideology = centrism  
+	traits = {
+		#
+	}
 }
