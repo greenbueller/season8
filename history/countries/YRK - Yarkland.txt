@@ -10,3 +10,14 @@ set_popularities = {
 	communism = 60
 	neutrality = 40
 }
+
+create_country_leader = {
+	name = "Bob_Putin"
+	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
+	picture = "gfx//leaders//YRK//bob_putin.dds"
+	expire = "1965.1.1"
+	ideology = leninism  
+	traits = {
+		#
+	}
+}

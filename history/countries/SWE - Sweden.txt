@@ -12,13 +12,13 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "cappuccino_boss"
+	name = "Cappuccino_boss"
 	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
-	picture = "Portrait_Sweden_cappuccino_boss.dds"
+	picture = "gfx//leaders//SWE//cappuccino_boss.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = leninism
 	traits = {
 	
-		dictator
+		#dictator
 	}
 }
