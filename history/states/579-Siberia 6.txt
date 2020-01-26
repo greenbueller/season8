@@ -1,0 +1,29 @@
+
+state={
+	id=579
+	name="STATE_579" # Salekhard
+	manpower = 45484
+	
+	state_category = wasteland
+
+	history={
+		#owner = USS
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = USS
+
+##State edits start
+
+##State edit for USS after 1936.1.1
+1936.1.1 = {
+	owner = USS
+	controller = USS
+}
+
+##State edits end
+}
+provinces={
+		1664 1684 3169 4669 7689 7738 8461 9142 
+	}
+}

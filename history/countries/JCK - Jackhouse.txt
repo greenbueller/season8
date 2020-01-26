@@ -1,0 +1,22 @@
+capital = 674
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 100
+}
+
+create_country_leader = {
+	name = "Jack"
+	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
+	picture = "gfx//leaders//JCK//jack.dds"
+	expire = "1965.1.1"
+	ideology = centrism  
+	traits = {
+		#
+	}
+}

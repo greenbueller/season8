@@ -1,0 +1,32 @@
+capital = 341
+
+set_politics = {
+	ruling_party = democratic 
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 100
+}
+
+#Albanian Treaty Stuff
+diplomatic_relation = { 
+	country = ILL 
+	relation = non_aggression_pact 
+}
+
+#Alliances
+give_guarantee = CAN
+
+
+create_country_leader = {
+	name = "Sexy boy for ikea"
+	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
+	picture = "gfx//leaders//IUC//sexyboy.dds"
+	expire = "1965.1.1"
+	ideology = conservatism  
+	traits = {
+		#
+	}
+}

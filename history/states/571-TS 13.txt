@@ -1,0 +1,38 @@
+
+state={
+	id=571
+	name="STATE_571" # Omsk
+	manpower = 1317157
+	
+	state_category = town
+	history={
+		#owner = USS
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+		}
+		victory_points = {
+			10696 3 
+		}
+		add_core_of = USS
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+			}
+		}
+
+##State edits start
+
+##State edit for USS after 1936.1.1
+1936.1.1 = {
+	add_core_of = USS
+	owner = USS
+	controller = USS
+}
+
+##State edits end
+}
+provinces={
+		1709 1800 1835 4700 7800 10568 10626 10696 12546 12580 12652 
+	}
+}

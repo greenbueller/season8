@@ -1,0 +1,24 @@
+capital = 38
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 100
+}
+
+
+create_country_leader = {
+	name = "Cappuccino_boss"
+	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
+	picture = "gfx//leaders//SWE//cappuccino_boss.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+	
+		#dictator
+	}
+}

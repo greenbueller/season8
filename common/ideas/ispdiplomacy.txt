@@ -1,0 +1,52 @@
+ideas = {
+		
+		
+		##Albania Treaty
+			country = {
+		
+			DIPLOMACY_albanian_treaty = { 
+			
+			allowed = {
+				always = no
+			}
+			
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			
+			removal_cost = -1
+			
+			picture = generic_the_london_naval_treaty
+		}
+		
+		}
+		
+		
+		
+		##New World Pact
+			country = {
+		
+			DIPLOMACY_new_world_pact = { 
+			
+			allowed = {
+				always = no
+			}
+			
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			
+			removal_cost = -1
+			
+			picture = generic_the_london_naval_treaty
+		}
+		
+		}
+		
+
+
+}

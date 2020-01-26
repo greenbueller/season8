@@ -1,0 +1,40 @@
+capital = 276
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 100
+}
+
+add_ideas = {
+
+	CAN_greentoppolicy #fynddemocratic
+}
+
+
+#Alliances  USA and llama are national spirit
+give_guarantee = IUC
+
+
+#########################
+##########Faction########
+#########################
+create_faction = "Canadian Federation"
+add_to_faction = GRL
+#add_to_faction = CSA -added by focus
+
+
+create_country_leader = {
+	name = "Fynd"
+	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
+	picture = "gfx//leaders//CAN//fynddemocratic.dds"
+	expire = "1965.1.1"
+	ideology = liberalism 
+	traits = {
+		#
+	}
+}

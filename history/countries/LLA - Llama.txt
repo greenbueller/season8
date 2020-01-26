@@ -1,0 +1,46 @@
+capital = 495
+
+set_politics = {
+	ruling_party = democratic 
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 100
+}
+
+#########################
+##########Faction########
+#########################
+create_faction = "llama Sphere of Influence"
+add_to_faction = JES
+#add_to_faction = CAL ##may be added by focus in the future
+
+#Guarantees
+give_guarantee = JES
+give_guarantee = ILL
+give_guarantee = PLB
+
+
+create_country_leader = {
+	name = "MrKage"
+	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
+	picture = "gfx//leaders//LLA//mrkage.dds"
+	expire = "1965.1.1"
+	ideology = conservatism  
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "MrKage"
+	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
+	picture = "gfx//leaders//LLA//mrkage.dds"
+	expire = "1965.1.1"
+	ideology = centrism  
+	traits = {
+		#
+	}
+}
