@@ -1,0 +1,23 @@
+capital = 500
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 100
+}
+
+
+create_country_leader = {
+	name = "Trashius Caesar"
+	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
+	picture = "gfx//leaders//CEA//Caesar.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology 
+	traits = {
+			Inexperienced_Imperialist
+	}
+}
